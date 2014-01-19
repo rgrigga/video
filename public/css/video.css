@@ -1,0 +1,11 @@
+
+
+	@import url(//fonts.googleapis.com/css?family=Lato:700);
+	@import url(//fonts.googleapis.com/css?family=Ubuntu:500);
+
+	body {
+		font-family:'Lato', sans-serif;
+		text-align:center;
+		background-color: #ccc;
+	}
+
