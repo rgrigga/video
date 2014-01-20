@@ -21,5 +21,15 @@
             "Rgrigga\\Video\\": "src/"
         }
     },
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan asset:publish rgrigga/video"
+        ],
+        "post-update-cmd": [
+            "php artisan asset:publish rgrigga/video",
+            "php artisan clear-compiled",
+            "php artisan optimize"
+        ]
+    },
     "minimum-stability": "dev"
 }
