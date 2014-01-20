@@ -1,11 +1,18 @@
 
 
-	@import url(//fonts.googleapis.com/css?family=Lato:700);
-	@import url(//fonts.googleapis.com/css?family=Ubuntu:500);
+	/*@import url(//fonts.googleapis.com/css?family=Lato:700);*/
+	/*@import url(//fonts.googleapis.com/css?family=Ubuntu:500);*/
 
-	body {
-		font-family:'Lato', sans-serif;
-		text-align:center;
-		background-color: #ccc;
+	/*body {*/
+		/*font-family:'Lato', sans-serif;*/
+		/*background-color: #ccc;*/
+	/*}*/
+
+	h1,h2{
+		margin-left: 20px;
 	}
-
+	.video-js {
+		max-width: 100%;
+		margin: 0 auto;
+		margin-left: 20px;
+	}
