@@ -18,7 +18,7 @@ class VideoServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('rgrigga/video');
+		$this->package('rgrigga/video','video');
 	}
 
 	/**
